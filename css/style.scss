@@ -13,11 +13,14 @@ html,body {
     height: 100%;
 }
 /* BURGER */
-._container {
-    max-width: 980px;
-    margin: 0px auto;
-    padding: 0px 10px;
+header {
+    ._container {
+        max-width: 980px;
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
 }
+
 .header {
     position: relative;
     width: 100%;
@@ -156,5 +159,13 @@ html,body {
 @media (max-width:767px) {
     .content {
         padding: 60px 0 0 0;
+    }
+}
+
+main {
+    ._container {
+        max-width: 980px;
+        margin: 0px auto;
+        padding: 0px 10px;
     }
 }
